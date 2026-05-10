@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+*.swp
+*.swo
+.DS_Store
+coverage/
+.nyc_output/

@@ -1,0 +1,21 @@
+{
+  "name": "openai-chat-responses-adapter",
+  "version": "0.1.0",
+  "description": "OpenAI-compatible Chat Completions adapter that talks to an upstream /v1/responses sidecar.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "./start.sh",
+    "test": "node --test test/sse-parser.test.mjs test/translate-request.test.mjs test/translate-stream.test.mjs test/translate-buffer.test.mjs test/server.test.mjs",
+    "test:smoke": "node test/smoke-live.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "lib/",
+    "start.sh",
+    "README.md"
+  ]
+}
