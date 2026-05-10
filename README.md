@@ -194,3 +194,7 @@ real-world bug the spec calls out.
 
 The existing sidecar at `127.0.0.1:18890` remains the only component
 that holds OAuth credentials and talks to OpenAI / Codex.
+
+## License
+
+MIT — see [LICENSE](LICENSE).

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "OpenAI-compatible Chat Completions adapter that talks to an upstream /v1/responses sidecar.",
   "type": "module",
+  "license": "MIT",
   "private": true,
   "engines": {
     "node": ">=20.0.0"
